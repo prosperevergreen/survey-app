@@ -7,7 +7,7 @@
 						Sex:
 					</v-col>
 					<v-col>
-						<v-btn-toggle v-model="sex" mandatory>
+						<v-btn-toggle v-model="sex">
 							<v-btn>Male</v-btn>
 							<v-btn>Female</v-btn>
 							<v-btn>Others</v-btn>

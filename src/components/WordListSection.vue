@@ -10,8 +10,8 @@
 								<v-icon>mdi-volume-high</v-icon>
 							</v-btn>
 						</v-col>
-						<v-col cols="auto" align-self="center">
-							<v-btn-toggle v-model="rating" mandatory>
+						<v-col class="px-0 pl-1" cols="auto" align-self="center">
+							<v-btn-toggle v-model="rating[index]" color="primary">
 								<v-btn>1</v-btn>
 								<v-btn>2</v-btn>
 								<v-btn>3</v-btn>
@@ -31,7 +31,7 @@
 	export default {
 		data: () => ({
 			rating: [],
-			soundArr: ['bonzer','pot','fudge','flash','gal','shirt','nerd','boob','witch','fool','blob','hit','bloop']
+			soundArr: ['bonzer','pot','fudge','flash','gal','shirt','nerd','boob','witch','fool','blob','hit','bloop','frosh','wow','sheik','frump','beans','dreck','babe']
 		}),
 		methods: {
 			playSound(sound) {
@@ -39,6 +39,7 @@
 					var audio = new Audio(sound);
 					audio.play();
 				}
+				console.log(this.rating)
 			},
 		},
 	};

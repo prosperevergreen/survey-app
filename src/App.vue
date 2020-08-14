@@ -31,6 +31,7 @@
 		},
 		data: () => ({
 			//
+			infoText: []
 		}),
 	};
 </script>
