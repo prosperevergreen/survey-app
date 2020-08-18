@@ -1,5 +1,5 @@
 # survey
-
+survey app for getting users feedback to sound and their feelings. Hosted at [survey-app](https://prosperevergreen.github.io/survey-app/)
 ## Project setup
 ```
 npm install
