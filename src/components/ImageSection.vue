@@ -16,8 +16,10 @@
 <script>
 	import { bus } from "../main";
 	export default {
+		props:{
+			images: Array
+		},
 		data: () => ({
-			images: ["image-1", "image-2"],
 			imageDef: [],
 		}),
 		watch: {

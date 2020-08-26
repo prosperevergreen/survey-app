@@ -1,18 +1,18 @@
 <template>
 	<v-card>
 		<v-card-text>
-			<v-row>
-				<v-col cols="auto" align-self="center">
-					Sex:
+			<v-row class="flex-nowrap">
+				<v-col cols="auto" align-self="center" class="pa-0 pa-md-4">
+					Пол:
 				</v-col>
-				<v-col>
+				<v-col cols="auto" align-self="center">
 					<v-btn-toggle v-model="sex">
 						<v-btn v-for="sexItem in sexList" :key="sexItem">{{sexItem}}</v-btn>
 					</v-btn-toggle>
 				</v-col>
 			</v-row>
 			<v-row>
-				<v-col cols="auto" align-self="center">Age:</v-col>
+				<v-col cols="auto" align-self="center" class="pa-0 pa-md-4">Возраст:</v-col>
 				<v-col cols="3">
 					<input type="number" v-model="age" placeholder="17..." id="age" max="70" min="10">
 				</v-col>
@@ -25,7 +25,7 @@
 	import { bus } from "../main";
 	export default {
 		data: () => ({
-			sexList: ["Male", "Female", "Others"],
+			sexList: ["Мужской", "Женский", "Другие"],
 			sex: null,
 			age: null,
 		}),
