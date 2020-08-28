@@ -1,5 +1,5 @@
 <template>
-	<v-app fixed>
+	<v-app :fixed="!submitted">
 		<v-app-bar app color="primary" dark>
 			<v-toolbar-title>Survey</v-toolbar-title>
 		</v-app-bar>

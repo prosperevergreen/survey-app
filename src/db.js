@@ -1,15 +1,11 @@
-// const firebase = require("firebase");
-// // Required for side-effects
-// require("firebase/firestore");
-
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
-  apiKey: "<API KEY>",
-  authDomain: "<APP ID>.firebaseapp.com",
-  projectId: "<APP ID>",
+  apiKey: "AIzaSyDvTT6kmNK-pVDBijIpwn5vWEmWlAQYmnI",
+  authDomain: "survey-app-bed2c.firebaseapp.com",
+  projectId: "survey-app-bed2c",
 });
 
 const db = firebase.firestore();
