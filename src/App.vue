@@ -212,7 +212,7 @@
 				"heel",
 				"flam",
 				"sooh",
-				"shtich",
+				"shtick",
 				"jive",
 				"foul",
 				"bash",
